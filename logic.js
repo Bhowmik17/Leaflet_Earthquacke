@@ -72,7 +72,7 @@ function createMap(earthquakes) {
   var myMap = L.map("map", {
     center: [32.0, -8.00],
     zoom: 2.3,
-    layers: [lightMap, earthquakes, tectonicPlates]
+    layers: [satelliteMap, earthquakes, tectonicPlates]
   });
 
    // Add Fault lines data
